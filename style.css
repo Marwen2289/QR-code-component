@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+  body {
+    background-color: #d6e1f0;
+}
+
+.container {
+    height: 70vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ .container > div.border { 
+     background-color: #feffff;
+     border-radius: 10px;
+
+}
+
+div > img {
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+div.image {
+    text-align: center;
+    padding: 10px;
+}
+
+.paragraph-title, .paragraph {
+    text-align: center;
+}
+
+.paragraph {
+    margin-bottom: 40px;
+    width: 220px;
+}
+
+.paragraph-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-top: 200px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
